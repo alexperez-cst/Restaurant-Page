@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src='main.js' async></script>
-
-	<link rel="stylesheet" href="./styles/style.css">
-	<title>Restaurant Page</title>
-</head>
-<body>
-	<div id='content'>
-		<div id='selectBar'>
+function contactContentLoad (){
+	const body = document.querySelector('#content');
+	body.innerHTML =
+	`	<div id='selectBar'>
 			<div id='home' >Home</div>
 			<div id='menu' >Menu</div>
 			<div id='contact' class="selected">Contact</div>
@@ -30,7 +21,6 @@
 		</div>
 		<footer id='github'>
 			<a href="https://github.com/alexperez-cst" target="#"><img src="./img/23957.png" id='github'></a>
-		</footer>
-	</div>
-</body>
-</html>
+		</footer>`
+};
+export {contactContentLoad};
