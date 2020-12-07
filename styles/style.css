@@ -1,50 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Great+Vibes&display=swap');
-body{
+body {
 	background-color: rgb(245, 245, 234);
 }
-h1{
-	font-family: 'Great Vibes',sans-serif;
+h1 {
+	font-family: 'Great Vibes', sans-serif;
 	font-size: 6em;
 	text-align: center;
 }
-h2{
-	font-family: 'Cormorant Garamond',sans-serif;
+h2 {
+	font-family: 'Cormorant Garamond', sans-serif;
 	font-size: 3em;
 	text-align: center;
 	letter-spacing: 2px;
 }
-h3{
-	font-family: 'Cormorant Garamond',sans-serif;
+h3 {
+	font-family: 'Cormorant Garamond', sans-serif;
 	font-size: 2.5em;
 }
-h4{
+h4 {
 	font-size: 2em;
-	font-family: 'Cormorant Garamond',sans-serif;
+	font-family: 'Cormorant Garamond', sans-serif;
 }
-p{
+p {
 	font-size: 1.2em;
 }
-.food{
+.food {
 	padding: 1%;
 	margin: 1%;
 }
-#menuTable{
+#content {
+	transition: 0.5s;
+}
+#menuTable {
 	display: flex;
-	margin:auto;
+	margin: auto;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
-.textFood{
+.textFood {
 	font-size: 1.5em;
 	text-align: center;
 }
-.imgFood{
+.imgFood {
 	width: 20em;
 	height: auto;
 }
-#github{
+#github {
 	width: 50px;
 	height: 50px;
 	position: relative;
@@ -52,34 +55,38 @@ p{
 	left: 0px;
 	bottom: 0px;
 }
-#home,#menu,#contact{
+#home,
+#menu,
+#contact {
 	width: 20em;
 	font-size: 1em;
 	transition: 0.5s;
 	text-align: center;
 }
-#home:hover,#menu:hover,#contact:hover{
+#home:hover,
+#menu:hover,
+#contact:hover {
 	background-color: rgb(202, 202, 177);
 }
-.selected{
+.selected {
 	transition: 0.5s;
 	background-color: rgb(245, 245, 234);
 }
-.selected:hover{
+.selected:hover {
 	background-color: rgb(224, 224, 210) !important;
 }
-#contactTable{
+#contactTable {
 	margin: auto;
 	text-align: center;
 }
-#selectBar{
+#selectBar {
 	background-color: rgb(218, 218, 189);
 	position: absolute;
 	left: 0px;
 	right: 0px;
 	top: 0px;
 	display: flex;
-	font-family: 'Cormorant Garamond',sans-serif;
+	font-family: 'Cormorant Garamond', sans-serif;
 	font-size: 2em;
 	justify-content: space-around;
 }
