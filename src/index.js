@@ -1,13 +1,16 @@
 import {homeContentLoad} from './homeContentLoad.js';
 import {menuContentLoad} from './menuContentLoad.js';
 import {contactContentLoad} from './contactContentLoad.js';
+function onLoading(){
+	const home = document.querySelector('#home');
+	const menu = document.querySelector('#menu');
+	const contact = document.querySelector('#contact');
+	home.addEventListener('click', changePage);
+	menu.addEventListener('click',changePage);
+	contact.addEventListener('click',changePage);
+}
 homeContentLoad();
-const home = document.querySelector('#home');
-const menu = document.querySelector('menu');
-const contact = document.querySelector('#contact');
-home.addEventListener('click', changePage);
-menu.addEventListener('click',changePage);
-contact.addEventListener('click',changePage);
+onLoading();
 function changePage(e){
 	const button = e.target.id;
 	const selected = document.querySelector('.selected');
@@ -23,7 +26,9 @@ function changePage(e){
 			}
 			case 'contact':{
 				contactContentLoad();
+				break;
 			}
 		}
+		onLoading();
 	}
 }
