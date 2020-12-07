@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Great+Vibes&display=swap');
+body{
+	background-color: rgb(245, 245, 234);
+}
+h1{
+	font-family: 'Great Vibes',sans-serif;
+	font-size: 6em;
+	text-align: center;
+}
+h2{
+	font-family: 'Cormorant Garamond',sans-serif;
+	font-size: 3em;
+	text-align: center;
+	letter-spacing: 2px;
+}
+h3{
+	font-family: 'Cormorant Garamond',sans-serif;
+	font-size: 2.5em;
+}
+h4{
+	font-size: 2em;
+	font-family: 'Cormorant Garamond',sans-serif;
+}
+p{
+	font-size: 1.2em;
+}
+#github{
+	width: 50px;
+	height: 50px;
+	position: static;
+	left: 0px;
+	bottom: 0px;
+}
+#home,#menu,#contact{
+	width: 20em;
+	text-align: center;
+}
+.selected{
+	background-color: rgb(245, 245, 234);
+}
+#selectBar{
+	background-color: rgb(218, 218, 189);
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	display: flex;
+	font-family: 'Cormorant Garamond',sans-serif;
+	font-size: 2em;
+	justify-content: space-around;
+}
+#bodyContent-Home {
+	position: static;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
